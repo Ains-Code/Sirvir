@@ -19,7 +19,7 @@ RARITY_ORDER = ["common", "uncommon", "rare", "legendary", "mythic", "super"]
 
 # ── API endpoints ─────────────────────────────────────────────────────────────
 
-_BASE       = os.getenv("API_BASE", "https://YOUR_RAILWAY_URL.railway.app")
+_BASE       = os.getenv("API_BASE", "https://sirvir-production.up.railway.app")
 SEED_API    = f"{_BASE}/v2/growagarden/stock"
 GEAR_API    = f"{_BASE}/v2/growagarden/gearstock"
 PET_API     = f"{_BASE}/v2/growagarden/petstock"
