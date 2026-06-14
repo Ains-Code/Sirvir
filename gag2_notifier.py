@@ -11,7 +11,7 @@ load_dotenv()
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-WEBHOOK   = os.getenv("WEBHOOK_URL", "YOUR_WEBHOOK_URL")
+WEBHOOK   = os.getenv("WEBHOOK_URL", "https://discord.com/api/webhooks/1515704094419980338/XlFD0Y1xCfvEVagK8kznLxcEX4LDNHjyMZws41WU1DjAcm-ZIAh_0WjN0qhBpM5eQWAX")
 INTERVAL  = 30
 MIN_RARITY = "legendary"
 
